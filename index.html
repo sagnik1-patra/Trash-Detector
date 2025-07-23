@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Trash Detector</title>
+    <style>
+        body { text-align: center; background-color: #f0f0f0; font-family: Arial, sans-serif; }
+        h1 { color: #2E8B57; }
+        video { border: 5px solid #2E8B57; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <h1>♻️ Smart Trash Detector (Live)</h1>
+    <p>Point your camera at trash to see classification in real time.</p>
+    <img src="{{ url_for('video') }}" width="640" height="480">
+</body>
+</html>
